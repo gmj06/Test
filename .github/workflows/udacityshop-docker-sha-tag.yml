@@ -21,10 +21,10 @@ jobs:
           # list of Docker images to use as base name for tags
           images: |
             gmj06/adservice-v22
-            gmj06/currencyservice2
-            gmj06/frontend2
-            gmj06/productcatalogservice2
-            gmj06/adservice2
+            gmj06/currencyservice
+            gmj06/frontend
+            gmj06/productcatalogservice
+            gmj06/adservice
           # generate Docker tags based on the following events/attributes
           tags: |
             type=sha

@@ -16,7 +16,7 @@ spec:
       terminationGracePeriodSeconds: 5
       containers:
       - name: server
-        image: linuxrobotgeek/udacityshop-adservicev2
+        image: gmj06/udacityshop-adservicev2
         ports:
         - containerPort: 9556
         env:

@@ -38,7 +38,7 @@ jobs:
         with:
           context: src/productcatalogservice/
           push: true
-          tags: gmj06/productcatalogservice2:latest
+          tags: gmj06/productcatalogservice:latest
       -
         name: Build and push adservicev2
         uses: docker/build-push-action@v2
@@ -52,18 +52,18 @@ jobs:
         with:
           context: src/frontend/
           push: true
-          tags: gmj06/frontend2:latest
+          tags: gmj06/frontend:latest
       -
         name: Build and push currencyservice
         uses: docker/build-push-action@v2
         with:
           context: src/currencyservice/
           push: true
-          tags: gmj06/currencyservice2:latest
+          tags: gmj06/currencyservice:latest
       -
         name: Build and push adservice
         uses: docker/build-push-action@v2
         with:
           context: src/adservice/
           push: true
-          tags: gmj06/adservice2:latest
+          tags: gmj06/adservice:latest
