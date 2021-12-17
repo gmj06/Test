@@ -10,7 +10,7 @@ spec:
   project: default
   source:
     path: kubernetes-manifests/dev-v2
-    repoURL: https://github.com/sentairanger/nd064_capstone_starter
+    repoURL: https://github.com/gmj06/Test
     targetRevision: HEAD
   syncPolicy:
     automated: {}
